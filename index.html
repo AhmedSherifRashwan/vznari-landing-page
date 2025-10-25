@@ -1,20 +1,31 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--
-      VIZNARI landing page
-      This page showcases the upcoming VIZNARI app.  It leverages
-      Bootstrap 5 for a responsive layout and Font Awesome for
-      illustrative icons.  Additional styling and simple animations
-      are defined in the accompanying style.css and script.js files.
-    -->
-    <title>VIZNARI – Take Control of Your Life</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384‑rbsA2VBKQX0U2e9gcNJ9q9w5yX2a2QLQP2R3sFZCJENfJtz8iZ0u+F0VoxsE6zIc" crossorigin="anonymous">
+    <title>VIZNARI – Take Control of Your Life</title>
+    <!-- External CSS & JS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/184e635a6e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <!-- Sender.net embed script -->
+    <script>
+    (function (s, e, n, d, er) {
+      s['Sender'] = er;
+      s[er] = s[er] || function () {
+        (s[er].q = s[er].q || []).push(arguments)
+      }, s[er].l = 1 * new Date();
+      var a = e.createElement(n),
+          m = e.getElementsByTagName(n)[0];
+      a.async = 1;
+      a.src = d;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
+    // Initialise your Sender.net form using your account ID
+    sender('63380e1a7f5156');
+    </script>
   </head>
   <body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="70">
     <!-- Navigation -->
@@ -59,7 +70,7 @@
               <a class="nav-link" href="#gratitude">Gratitude</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link btn btn-outline-light ms-lg-3" href="#signup">Get Early Access</a>
+              <a class="nav-link btn btn-outline-light ms-lg-3" href="#signup">Get Early Access</a>
             </li>
           </ul>
         </div>
@@ -71,7 +82,7 @@
       <div class="container">
         <img src="assets/logo.jpeg" alt="Viznari logo" class="mb-4 logo" />
         <h1 class="display-4 fw-bold">You are the CEO of your life</h1>
-        <p class="lead mb-4">Become the visionary of your own journey. Organise your tasks, nourish your body, track your progress and capture ideas—all in one place.</p>
+        <p class="lead mb-4">Become the visionary of your own journey. Organise your tasks, nourish your body, track your progress and capture ideas—all in one place.</p>
         <a href="#signup" class="btn btn-primary btn-lg">Join the Waiting List</a>
       </div>
     </header>
@@ -82,7 +93,7 @@
         <div class="row justify-content-center text-center mb-5">
           <div class="col-lg-8">
             <h2 class="section-title fw-bold mb-3">Why VIZNARI?</h2>
-            <p class="mb-0">VIZNARI empowers everyone—not just business leaders—to take control of their schedule, wellbeing and ambitions. With a unified dashboard and a suite of productivity tools, you can steer your life like a CEO.</p>
+            <p class="mb-0">VIZNARI empowers everyone—not just business leaders—to take control of their schedule, wellbeing and ambitions. With a unified dashboard and a suite of productivity tools, you can steer your life like a CEO.</p>
           </div>
         </div>
         <div class="row g-4">
@@ -126,7 +137,7 @@
           </div>
           <div class="col-lg-6 order-lg-1 reveal">
             <h2 class="fw-bold mb-3">Stay Oriented with a Central Hub</h2>
-            <p>Kick‑off your day with a motivational quote, review your current tasks and see upcoming events—all from a single dashboard. VIZNARI’s homepage keeps your priorities clear and helps you focus on what makes an impact.</p>
+            <p>Kick‑off your day with a motivational quote, review your current tasks and see upcoming events—all from a single dashboard. VIZNARI’s homepage keeps your priorities clear and helps you focus on what makes an impact.</p>
           </div>
         </div>
       </div>
@@ -141,7 +152,7 @@
           </div>
           <div class="col-lg-6 reveal">
             <h2 class="fw-bold mb-3">Organise Your To‑Do List</h2>
-            <p>Break down your workload into actionable tasks with priorities, tags and due dates. Mark tasks as complete and celebrate your progress. VIZNARI makes it easy to manage your responsibilities across work and life.</p>
+            <p>Break down your workload into actionable tasks with priorities, tags and due dates. Mark tasks as complete and celebrate your progress. VIZNARI makes it easy to manage your responsibilities across work and life.</p>
           </div>
         </div>
       </div>
@@ -156,7 +167,7 @@
           </div>
           <div class="col-lg-6 order-lg-1 reveal">
             <h2 class="fw-bold mb-3">Schedule and Plan Effortlessly</h2>
-            <p>Our built‑in calendar lets you set events and reminders with ease. Highlight important dates, toggle between monthly or daily views and never miss an appointment. Your calendar syncs seamlessly with your to‑do list.</p>
+            <p>Our built‑in calendar lets you set events and reminders with ease. Highlight important dates, toggle between monthly or daily views and never miss an appointment. Your calendar syncs seamlessly with your to‑do list.</p>
           </div>
         </div>
       </div>
@@ -171,7 +182,7 @@
           </div>
           <div class="col-lg-6 reveal">
             <h2 class="fw-bold mb-3">Track Your Nutrition</h2>
-            <p>Fuel your body with intention. Log meals, monitor calories and macronutrients, and set custom nutrition goals. Visual charts make it easy to see how your diet aligns with your wellness ambitions.</p>
+            <p>Fuel your body with intention. Log meals, monitor calories and macronutrients, and set custom nutrition goals. Visual charts make it easy to see how your diet aligns with your wellness ambitions.</p>
           </div>
         </div>
       </div>
@@ -186,7 +197,7 @@
           </div>
           <div class="col-lg-6 order-lg-1 reveal">
             <h2 class="fw-bold mb-3">Monitor Your Fitness Journey</h2>
-            <p>From weightlifting to cardio, record workouts and track personal bests. VIZNARI’s gym tracker helps you stay motivated and see tangible progress in your strength and endurance.</p>
+            <p>From weightlifting to cardio, record workouts and track personal bests. VIZNARI’s gym tracker helps you stay motivated and see tangible progress in your strength and endurance.</p>
           </div>
         </div>
       </div>
@@ -201,7 +212,7 @@
           </div>
           <div class="col-lg-6 reveal">
             <h2 class="fw-bold mb-3">Capture Your Inspiration</h2>
-            <p>Every great plan begins with a spark. Jot down business ventures, personal goals or creative projects in the Ideas tab. Organise them by date and turn your visions into reality.</p>
+            <p>Every great plan begins with a spark. Jot down business ventures, personal goals or creative projects in the Ideas tab. Organise them by date and turn your visions into reality.</p>
           </div>
         </div>
       </div>
@@ -216,30 +227,25 @@
           </div>
           <div class="col-lg-6 order-lg-1 reveal">
             <h2 class="fw-bold mb-3">Reflect on What Matters</h2>
-            <p>Practising gratitude fosters a positive mindset. Record daily reflections in the Gratitude Journal to appreciate your journey and celebrate achievements big and small.</p>
+            <p>Practising gratitude fosters a positive mindset. Record daily reflections in the Gratitude Journal to appreciate your journey and celebrate achievements big and small.</p>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Sign‑Up Section -->
-    <section id="signup" class="py-5 text-center">
+    <section id="signup" class="py-5">
       <div class="container">
-        <h2 class="fw-bold mb-3">Be the First to Know</h2>
-        <p class="mb-4">VIZNARI is currently in development. Join our mailing list to get early access and product updates.</p>
-        <!--
-          Replace the iframe below with your actual Sender.net embed code.
-          If you have generated an embedded form script on Sender.net, paste
-          it here.  The placeholder iframe ensures the section has space
-          allocated and looks good while awaiting your real form.
-        -->
-        <div class="ratio ratio-16x9 mx-auto" style="max-width:600px;">
-          <iframe
-            src="https://example.com/your-sendernet-embed"
-            title="Mailing List Sign‑Up"
-            style="border:0;"
-            allowfullscreen
-          ></iframe>
+        <div class="row align-items-center g-5">
+          <!-- Left column: Heading and description -->
+          <div class="col-lg-6 text-lg-start text-center">
+            <h2 class="fw-bold mb-3">Be the First to Know</h2>
+            <p class="mb-4">VIZNARI is currently in development. Join our mailing list to get early access and product updates.</p>
+          </div>
+          <!-- Right column: Sender.net form -->
+          <div class="col-lg-6">
+            <div style="text-align: left" class="sender-form-field" data-sender-form-id="b827X5"></div>
+          </div>
         </div>
       </div>
     </section>
@@ -248,7 +254,7 @@
     <footer class="bg-dark text-white py-4">
       <div class="container text-center">
         <p class="mb-1 fw-bold">VIZNARI</p>
-        <p class="mb-2 small">&copy; 2025 VIZNARI. All rights reserved.</p>
+        <p class="mb-2 small">&copy; 2025 VIZNARI. All rights reserved.</p>
         <div class="social-links">
           <a href="https://instagram.com/viznari.app" class="text-light me-3"><i class="fa-brands fa-instagram"></i></a>
         </div>
@@ -256,11 +262,7 @@
     </footer>
 
     <!-- Bootstrap JS -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-TQnXebLY/h8tPw6Dcfz1Wc+HWcxOypGODqN6jLAKf5OHc9k8fKVP2Mb+X1gRJec5"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Custom JS -->
     <script src="script.js"></script>
   </body>
