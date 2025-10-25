@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--
+      VIZNARI landing page
+      This page showcases the upcoming VIZNARI app.  It leverages
+      Bootstrap 5 for a responsive layout and Font Awesome for
+      illustrative icons.  Additional styling and simple animations
+      are defined in the accompanying style.css and script.js files.
+    -->
+    <title>VIZNARI – Take Control of Your Life</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384‑rbsA2VBKQX0U2e9gcNJ9q9w5yX2a2QLQP2R3sFZCJENfJtz8iZ0u+F0VoxsE6zIc" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/184e635a6e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="70">
+    <!-- Navigation -->
+    <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top py-3">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#hero">VIZNARI</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#dashboard">Dashboard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tasks">Tasks</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#calendar">Calendar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#diet">Diet</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gym">Gym</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ideas">Ideas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gratitude">Gratitude</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-outline-light ms-lg-3" href="#signup">Get Early Access</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="vh-100 d-flex align-items-center justify-content-center text-center">
+      <div class="container">
+        <img src="assets/logo.jpeg" alt="Viznari logo" class="mb-4 logo" />
+        <h1 class="display-4 fw-bold">You are the CEO of your life</h1>
+        <p class="lead mb-4">Become the visionary of your own journey. Organise your tasks, nourish your body, track your progress and capture ideas—all in one place.</p>
+        <a href="#signup" class="btn btn-primary btn-lg">Join the Waiting List</a>
+      </div>
+    </header>
+
+    <!-- Features Overview -->
+    <section id="features" class="py-5">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-lg-8">
+            <h2 class="section-title fw-bold mb-3">Why VIZNARI?</h2>
+            <p class="mb-0">VIZNARI empowers everyone—not just business leaders—to take control of their schedule, wellbeing and ambitions. With a unified dashboard and a suite of productivity tools, you can steer your life like a CEO.</p>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100 text-center p-4 reveal">
+              <div class="card-body">
+                <i class="fa-solid fa-layer-group fa-2x mb-3"></i>
+                <h5 class="card-title fw-bold">Unified Dashboard</h5>
+                <p class="card-text">See your tasks, events and progress at a glance to stay on top of what matters.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 text-center p-4 reveal">
+              <div class="card-body">
+                <i class="fa-solid fa-calendar-days fa-2x mb-3"></i>
+                <h5 class="card-title fw-bold">Integrated Calendar</h5>
+                <p class="card-text">Plan meetings, conferences and reminders without switching apps.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 text-center p-4 reveal">
+              <div class="card-body">
+                <i class="fa-solid fa-list-check fa-2x mb-3"></i>
+                <h5 class="card-title fw-bold">Smart To‑Do List</h5>
+                <p class="card-text">Prioritise and categorise tasks to manage your workload like a pro.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dashboard Section -->
+    <section id="dashboard" class="py-5 bg-dark text-white">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6 order-lg-2 mb-4 mb-lg-0 reveal">
+            <img src="assets/dashboard_dark.jpeg" class="img-fluid rounded shadow" alt="Dashboard overview" />
+          </div>
+          <div class="col-lg-6 order-lg-1 reveal">
+            <h2 class="fw-bold mb-3">Stay Oriented with a Central Hub</h2>
+            <p>Kick‑off your day with a motivational quote, review your current tasks and see upcoming events—all from a single dashboard. VIZNARI’s homepage keeps your priorities clear and helps you focus on what makes an impact.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tasks Section -->
+    <section id="tasks" class="py-5">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6 mb-4 mb-lg-0 reveal">
+            <img src="assets/tasks.jpeg" class="img-fluid rounded shadow" alt="Tasks interface" />
+          </div>
+          <div class="col-lg-6 reveal">
+            <h2 class="fw-bold mb-3">Organise Your To‑Do List</h2>
+            <p>Break down your workload into actionable tasks with priorities, tags and due dates. Mark tasks as complete and celebrate your progress. VIZNARI makes it easy to manage your responsibilities across work and life.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Calendar Section -->
+    <section id="calendar" class="py-5 bg-dark text-white">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6 order-lg-2 mb-4 mb-lg-0 reveal">
+            <img src="assets/calendar.jpeg" class="img-fluid rounded shadow" alt="Calendar interface" />
+          </div>
+          <div class="col-lg-6 order-lg-1 reveal">
+            <h2 class="fw-bold mb-3">Schedule and Plan Effortlessly</h2>
+            <p>Our built‑in calendar lets you set events and reminders with ease. Highlight important dates, toggle between monthly or daily views and never miss an appointment. Your calendar syncs seamlessly with your to‑do list.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Diet Section -->
+    <section id="diet" class="py-5">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6 mb-4 mb-lg-0 reveal">
+            <img src="assets/diet.jpeg" class="img-fluid rounded shadow" alt="Diet tracker" />
+          </div>
+          <div class="col-lg-6 reveal">
+            <h2 class="fw-bold mb-3">Track Your Nutrition</h2>
+            <p>Fuel your body with intention. Log meals, monitor calories and macronutrients, and set custom nutrition goals. Visual charts make it easy to see how your diet aligns with your wellness ambitions.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gym Section -->
+    <section id="gym" class="py-5 bg-dark text-white">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6 order-lg-2 mb-4 mb-lg-0 reveal">
+            <img src="assets/gym.jpeg" class="img-fluid rounded shadow" alt="Gym tracker" />
+          </div>
+          <div class="col-lg-6 order-lg-1 reveal">
+            <h2 class="fw-bold mb-3">Monitor Your Fitness Journey</h2>
+            <p>From weightlifting to cardio, record workouts and track personal bests. VIZNARI’s gym tracker helps you stay motivated and see tangible progress in your strength and endurance.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ideas Section -->
+    <section id="ideas" class="py-5">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6 mb-4 mb-lg-0 reveal">
+            <img src="assets/ideas.jpeg" class="img-fluid rounded shadow" alt="Ideas tab" />
+          </div>
+          <div class="col-lg-6 reveal">
+            <h2 class="fw-bold mb-3">Capture Your Inspiration</h2>
+            <p>Every great plan begins with a spark. Jot down business ventures, personal goals or creative projects in the Ideas tab. Organise them by date and turn your visions into reality.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gratitude Section -->
+    <section id="gratitude" class="py-5 bg-dark text-white">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6 order-lg-2 mb-4 mb-lg-0 reveal">
+            <img src="assets/gratitude.jpeg" class="img-fluid rounded shadow" alt="Gratitude journal" />
+          </div>
+          <div class="col-lg-6 order-lg-1 reveal">
+            <h2 class="fw-bold mb-3">Reflect on What Matters</h2>
+            <p>Practising gratitude fosters a positive mindset. Record daily reflections in the Gratitude Journal to appreciate your journey and celebrate achievements big and small.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sign‑Up Section -->
+    <section id="signup" class="py-5 text-center">
+      <div class="container">
+        <h2 class="fw-bold mb-3">Be the First to Know</h2>
+        <p class="mb-4">VIZNARI is currently in development. Join our mailing list to get early access and product updates.</p>
+        <!--
+          Replace the iframe below with your actual Sender.net embed code.
+          If you have generated an embedded form script on Sender.net, paste
+          it here.  The placeholder iframe ensures the section has space
+          allocated and looks good while awaiting your real form.
+        -->
+        <div class="ratio ratio-16x9 mx-auto" style="max-width:600px;">
+          <iframe
+            src="https://example.com/your-sendernet-embed"
+            title="Mailing List Sign‑Up"
+            style="border:0;"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+      <div class="container text-center">
+        <p class="mb-1 fw-bold">VIZNARI</p>
+        <p class="mb-2 small">&copy; 2025 VIZNARI. All rights reserved.</p>
+        <div class="social-links">
+          <a href="https://instagram.com/viznari.app" class="text-light me-3"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-TQnXebLY/h8tPw6Dcfz1Wc+HWcxOypGODqN6jLAKf5OHc9k8fKVP2Mb+X1gRJec5"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
